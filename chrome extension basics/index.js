@@ -25,14 +25,12 @@
 // const email = `Hey ${recipient}! How is it going? Cheers ${sender}`
 
 // console.log(email)
-
-const arr= [2,3,4,5]
-function sum(target){
+let count=0;
+function gernerateSentence(desc,arr){
     for(let i=0; i<arr.length; i++){
-        let sum1=arr[i]
-        if(sum1 + arr[i]===7)
-            return arr.indexOf(sum)
+        count++;
     }
+    let sentence = `The ${count} ${desc},${arr[0]},${srr[1]}`
 }
 
-console.log(sum(7));
+console.log();
